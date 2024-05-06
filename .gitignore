@@ -161,7 +161,7 @@ cython_debug/
 
 # data
 data/
-output/
+outputs/
 
 *.DS_Store
 __MACOSX/

@@ -1,0 +1,8 @@
+google/vit-base-patch32-224-in21k
+google/vit-base-patch16-224
+google/vit-base-patch16-224-in21k
+google/vit-large-patch16-224
+google/vit-large-patch16-224-in21k
+facebook/deit-base-patch16-224
+facebook/deit-tiny-patch16-224
+facebook/deit-small-patch16-224
