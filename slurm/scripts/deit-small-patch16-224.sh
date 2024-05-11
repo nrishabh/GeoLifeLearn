@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --account=danielk_gpu
-#SBATCH --partition=v100
+#SBATCH --partition=a100
 #SBATCH --gres=gpu:1
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1

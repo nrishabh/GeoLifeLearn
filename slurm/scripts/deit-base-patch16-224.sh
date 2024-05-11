@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH --account=danielk_gpu
-#SBATCH --partition=v100
+#SBATCH --partition=a100
 #SBATCH --gres=gpu:1
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
@@ -15,4 +15,4 @@
 ml anaconda
 conda activate /home/rnanawa1/.conda/envs/geolife
 
-python /home/rnanawa1/GeoLifeLearn/experiment.py "facebook/deit-base-patch16-224" --learning_rate 0.00002 --epochs 20 --data_dir "/home/rnanawa1/GeoLifeLearn/data/species25/" --batch_size 32
+python /home/rnanawa1/GeoLifeLearn/experiment.py "facebook/deit-base-patch16-224" --learning_rate 0.00002 --epochs 15 --data_dir "/home/rnanawa1/GeoLifeLearn/data/species25/" --batch_size 32
